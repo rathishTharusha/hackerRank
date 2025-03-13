@@ -1,0 +1,45 @@
+In the heart of an ancient kingdom, legends spoke of a mystical ledger that held the secret to unlocking a hidden treasure. This ledger was not ordinary. It contained an array of mysterious numbers, each with a magical property. According to the ancient texts, the treasure would reveal itself only when a wise adventurer could decipher the key by selecting exactly four unique numbers from the ledger that, when combined, equal a sacred target sum.
+
+You, as the brave explorer, have discovered this ledger. Now, your task is to help unlock the treasure by finding all the unique quadruplets [nums[a],nums[b],nums[c],nums[d]] from the array of integers such that:
+
+Each index a,b,c, and d is distinct, meaning 0 ≤ a,b,c,d < n (where n is the length of the ledger).
+The sum of the chosen numbers is exactly equal to the secret target value: nums[a]+nums[b]+nums[c]+nums[d]==target
+Input Format
+
+Return an array of all the unique quadruplets that satisfy the above condition.The order of the quadruplets in the output does not matter.
+Target
+Example : [3, -1, 0, 2, -2, 4, 1]
+4
+
+Constraints
+
+1 ≤ nums.length ≤ 200
+-109 ≤ nums[i] ≤ 109
+-109 ≤ target ≤ 109
+Output Format
+
+Print a single line containing all the outputs as a list.
+
+Example : [[-2, -1, 3, 4], [-2, 0, 2, 4], [-2, 1, 2, 3], [-1, 0, 1, 4], [-1, 0, 2, 3]]
+
+Sample Input 0
+
+[3, -1, 0, 2, -2, 4, 1]
+4
+Sample Output 0
+
+[[-2, -1, 3, 4], [-2, 0, 2, 4], [-2, 1, 2, 3], [-1, 0, 1, 4], [-1, 0, 2, 3]]
+Sample Input 1
+
+[1000000000, 999999999, 999999998, 999999997, 999999996, 999999995, 999999994, 999999993, 999999992, 999999991,999999990, 999999989, 999999988, 999999987, 999999986, 999999985, 999999984, 999999983, 999999982, 999999981,999999980, 999999979, 999999978, 999999977, 999999976, 999999975, 999999974, 999999973, 999999972, 999999971,999999970, 999999969, 999999968, 999999967, 999999966, 999999965, 999999964, 999999963, 999999962, 999999961, 999999960, 999999959, 999999958, 999999957, 999999956, 999999955, 999999954, 999999953, 999999952, 999999951, 999999950, 999999949, 999999948, 999999947, 999999946, 999999945, 999999944, 999999943, 999999942, 999999941, 999999940, 999999939, 999999938, 999999937, 999999936, 999999935, 999999934, 999999933, 999999932, 999999931,999999930, 999999929, 999999928, 999999927, 999999926, 999999925, 999999924, 999999923, 999999922, 999999921,999999920, 999999919, 999999918, 999999917, 999999916, 999999915, 999999914, 999999913, 999999912, 999999911]
+0
+Sample Output 1
+
+[]
+Sample Input 2
+
+[-1000000000, -999999999, -999999998, -999999997, -999999996, -999999995, -999999994, -999999993, -999999992, -999999991,-999999990, -999999989, -999999988, -999999987, -999999986, -999999985, -999999984, -999999983, -999999982, -999999981,-999999980, -999999979, -999999978, -999999977, -999999976, -999999975, -999999974, -999999973, -999999972, -999999971]
+-2000000000
+Sample Output 2
+
+[]
