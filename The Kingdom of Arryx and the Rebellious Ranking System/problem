@@ -1,0 +1,30 @@
+In the grand Kingdom of Arryx, there was a prestigious warrior ranking system known as the Order of Valor. Every year, warriors from all across the kingdom participated in a legendary tournament to earn their place in the rankings, decided by the Royal Strategist. However, something went terribly wrong this year. A rogue scribe, Eldon the Trickster, secretly scrambled the ranking scrolls, causing complete chaos in the hierarchy. Instead of being arranged in ascending order of skill, the warriors’ rankings were now jumbled, leading to endless disputes in the kingdom.
+
+The Royal Strategist, desperate to restore order, summoned the brightest minds of the land. He issued a challenge: “Find the number of misplaced warrior pairs that violate the ranking system! A pair (i, j) is misplaced if a less skilled warrior appears before a more skilled one in the scrolls.” The fate of Arryx’s military balance depends on it. Solve this riddle, and you shall be rewarded with eternal glory
+
+Input Format
+
+The first line contains an integer n, the number of warriors.
+The second line contains n space-separated integers, representing the warrior rankings in their scrambled order.
+Constraints
+
+1 ≤ n ≤ 10^5
+1 ≤ ranks[i] ≤ 10^9 (Each warrior has a unique skill ranking)
+Output Format
+
+Print a single integer, the number of misplaced warrior pairs.
+
+Sample Input 0
+
+5
+2 4 1 3 5
+Sample Output 0
+
+3
+Sample Input 1
+
+10
+1 2 3 6 5 4 7 8 9 10
+Sample Output 1
+
+3
